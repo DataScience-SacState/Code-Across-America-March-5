@@ -10,7 +10,10 @@
         "name": "24 hours",
         "address": "",
         "phone": "",
-        "description": ""
+        "description": "",
+        "hours":"",
+        "website":""
+
     }, {
         "name": "My Sister’s House",
         "address": "",
