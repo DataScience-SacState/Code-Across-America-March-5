@@ -1,0 +1,19 @@
+{
+    "items": [{
+        "name": "South Sacramento",
+        "address":"7275 E. Southgate Drive Sacramento, 95823",
+        "phone":"(916) 428-3788"
+    },
+    {
+        "name": "North Sacramento",
+        "address":"2200 Del Paso Blvd Sacramento, 95815",
+        "phone":"(916) 924-7988"
+    },
+    {
+        "name": "Sacramento Native American Health Center",
+        "address":"2020 J Street Sacramento, 95814",
+        "phone":"(916) 341-0575"
+    }]
+}
+
+
