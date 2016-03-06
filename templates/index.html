@@ -8,29 +8,43 @@
     
 <body>
 
-
-
+<!--
 <div class="margin5Percent">
     <h2>Let us learn about you!</h2>
 
     <div class="roundEdge">
-      <form action="action_page.php">
+      <form action="" method ="POST">
         <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname">
 
         <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname">
-
         <label for="gender">Gender</label>
           <select id="gender" name="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
           </select>
-      
         <input type="submit" value="Submit">
       </form>
     </div>
 </div>
+-->
+ <body>
+        <div class="container">
+          {% block content %}
+          <h1>First name"</h1>
+          <form action="" method="POST" name="login">
+            {{form.hidden_tag()}}
+            <p>
+              <h5>Enter your first name":</h5><br>
+              {{form.fname(size=80)}}<br>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+          </form>
+          {% endblock %}
+        </div>
+    </body>
+
 </body>
 </html>
