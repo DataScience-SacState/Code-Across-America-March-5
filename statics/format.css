@@ -1,0 +1,56 @@
+@font-face {
+    font-family: amaticSC;
+    src: url(font/Amatic_SC_Regular/AmaticSC-Regular.woff);
+}
+
+body 
+{
+    background-image: url(Stock_Photos_licened/desk-notebook-pen-writing.jpg);
+    background-attachment: absolute, no-repeat;
+    background-color: white;
+    background-size: 100% 100%;
+    margin: 0;
+    margin-top: 70px;
+
+/* for Amatic font*/
+    font-family: amaticSC;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 1000;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.roundEdge {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+.margin5Percent
+{
+    margin: 5%;
+}
